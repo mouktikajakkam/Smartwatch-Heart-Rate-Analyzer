@@ -1,0 +1,83 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+*.pdf
+venv/
+.venv/
+.DS_Store
+# full datasets are large - rebuild with build_dataset.py
+data/
+*.arff
+validation_log.txt
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python and test caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Original nested project copy
+/Smartwatch_HR_App-main/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local development files
+.vscode/
+.idea/
+*.log
+
+# Sample datasets (keep local; share separately if needed)
+sample_data/
+sample_heartrate.csv
+sample_minuteIntensitiesNarrow.csv
+sample_minuteSleep.csv
+sample_minuteStepsNarrow.csv
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE and local settings
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Original nested project copy
+/Smartwatch_HR_App-main/
+
+# Local sample datasets
+/sample_data/
+sample_heartrate.csv
+sample_minuteIntensitiesNarrow.csv
+sample_minuteSleep.csv
+sample_minuteStepsNarrow.csv
+
+/ecg mouktika.pdf
+
+/activity_model.joblib
